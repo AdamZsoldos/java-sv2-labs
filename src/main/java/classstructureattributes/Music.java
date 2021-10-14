@@ -16,11 +16,14 @@ public class Music {
         System.out.println("Performed by:");
         song.band = scanner.nextLine();
 
-        System.out.println("The song's length (in minutes):");
-        song.length = scanner.nextInt();
+        System.out.println("Please enter the song's length in the following format:");
+        System.out.println("4:30");
+        String[] lengthParts = scanner.nextLine().split(":");
+        song.length = Integer.parseInt(lengthParts[0]) * 60 + Integer.parseInt(lengthParts[1]);
+        //System.out.println(song.length); // Uncomment line to test length un-formatting operation
 
         System.out.println("Your favorite song is:");
-        System.out.println(song.band + " — " + song.title + " (" + song.length + " min)");
+        System.out.println(song.band + " — " + song.title + " (" + (song.length / 60) + ":" + (song.length % 60) + ")");
 
     }
 
