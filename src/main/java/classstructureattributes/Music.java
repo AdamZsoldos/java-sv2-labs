@@ -18,8 +18,8 @@ public class Music {
 
         System.out.println("Please enter the song's length in the following format:");
         System.out.println("4:30");
-        String[] lengthParts = scanner.nextLine().split(":");
-        song.length = Integer.parseInt(lengthParts[0]) * 60 + Integer.parseInt(lengthParts[1]);
+        String[] lengthArray = scanner.nextLine().split(":");
+        song.length = Integer.parseInt(lengthArray[0]) * 60 + Integer.parseInt(lengthArray[1]);
         //System.out.println(song.length); // Uncomment line to test length un-formatting operation
 
         System.out.println("Your favorite song is:");
