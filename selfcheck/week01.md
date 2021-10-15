@@ -29,8 +29,8 @@ a Java osztályokat fogjátok alapszinten megismerni.
 * [x] Metódusok gyakorlati feladat
 * [x] [Konstruktorok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709840-konstruktorok)
 * [x] Konstruktorok gyakorlati feladat
-* [ ] [UML, példányok konzol íráskor/olvasáskor videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709862-uml-peldanyok-konzol-iraskor-olvasaskor)
-* [ ] UML, példányok konzol íráskor/olvasáskor gyakorlati feladat
+* [x] [UML, példányok konzol íráskor/olvasáskor videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709862-uml-peldanyok-konzol-iraskor-olvasaskor)
+* [x] UML, példányok konzol íráskor/olvasáskor gyakorlati feladat
 
 ## Konzultációk
 
@@ -40,5 +40,5 @@ a Java osztályokat fogjátok alapszinten megismerni.
 * [x] 2021-10-12 konzultáció gyakorlati feladat
 * [x] 2021-10-14 konzultáció részvétel/videó
 * [x] 2021-10-14 konzultáció gyakorlati feladat
-* [ ] 2021-10-15 konzultáció részvétel/videó
-* [ ] 2021-10-15 konzultáció gyakorlati feladat
+* [x] 2021-10-15 konzultáció részvétel/videó
+* [x] 2021-10-15 konzultáció gyakorlati feladat
