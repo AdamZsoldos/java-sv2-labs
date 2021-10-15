@@ -1,5 +1,3 @@
-package introgithub.src.main.java;
-
 public class HelloGit {
 
     public static void main(String[] args) {
