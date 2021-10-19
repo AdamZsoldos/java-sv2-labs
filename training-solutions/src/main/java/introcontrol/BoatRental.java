@@ -34,7 +34,7 @@ public class BoatRental {
         else if (persons == -1)  System.out.println(-persons + " seat left onboard.");
         else System.out.println(-persons + " seats left onboard.");
 
-        if (seatsLeft == 1) System.out.println("Rental can accommodate " + seatsLeft + " more passenger.");
+        if (seatsLeft == 1) System.out.println("Rental service can accommodate " + seatsLeft + " more passenger.");
         else System.out.println("Rental service can accommodate " + seatsLeft + " more passengers.");
     }
 }
