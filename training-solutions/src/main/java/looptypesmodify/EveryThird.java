@@ -12,12 +12,12 @@ public class EveryThird {
         System.out.println("numbers array:");
         System.out.println(Arrays.toString(numbers));
 
-        changeToZero(numbers);
         System.out.println("numbers array with every third element changed to zero:");
-        System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(changeToZero(numbers)));
     }
 
-    public static void changeToZero(int[] numbers) {
+    public static int[] changeToZero(int[] numbers) {
         for (int i = numbers.length - 1; i >= 0; i -= 3) numbers[i] = 0;
+        return numbers;
     }
 }
