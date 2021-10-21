@@ -20,10 +20,10 @@ public class Star {
 
     public static void writeStars(int[] numbers) {
         int prev = 0;
-        for (int i = 0; i < numbers.length; i++) {
-            int stars = numbers[i] - prev;
+        for (int number: numbers) {
+            int stars = number - prev;
             printStars(stars);
-            prev = numbers[i];
+            prev = number;
             System.out.println();
         }
     }
