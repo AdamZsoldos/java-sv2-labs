@@ -3,9 +3,9 @@ package chars;
 public class Words {
 
     public static void main(String[] args) {
-        System.out.println(Words.pushWord("alma"));
-        System.out.println(Words.pushWord("körte"));
-        System.out.println(Words.pushWord("barack"));
+        System.out.println("alma -> " + Words.pushWord("alma"));
+        System.out.println("körte -> " + Words.pushWord("körte"));
+        System.out.println("barack -> " + Words.pushWord("barack"));
     }
 
     public static String pushWord(String word) {
