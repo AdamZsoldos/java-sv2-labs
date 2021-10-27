@@ -4,6 +4,7 @@ public class PrimitiveTypesMain {
 
     public static void main(String[] args) {
 
+        //Integers
         int a = 2;
         Integer b = 2; //Autoboxing
         Integer c = a; //Autoboxing
@@ -25,5 +26,24 @@ public class PrimitiveTypesMain {
         System.out.println("h: " + h);
         System.out.println("i: " + i);
         System.out.println("j: " + j);
+
+        //Booleans
+        boolean k = true;
+        Boolean l = true; //Autoboxing
+        boolean m = Boolean.valueOf(true); //Autounboxing
+        Boolean n = Boolean.valueOf(true);
+        boolean o = Boolean.parseBoolean("TrUe");
+        Boolean p = Boolean.parseBoolean("TrUe"); //Autoboxing
+        boolean q = Boolean.parseBoolean("TreU");
+        Boolean r = Boolean.parseBoolean("TreU"); //Autoboxing
+
+        System.out.println("k: " + k);
+        System.out.println("l: " + l);
+        System.out.println("m: " + m);
+        System.out.println("n: " + n);
+        System.out.println("o: " + o);
+        System.out.println("p: " + p);
+        System.out.println("q: " + q);
+        System.out.println("r: " + r);
     }
 }
