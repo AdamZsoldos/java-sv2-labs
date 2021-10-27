@@ -22,14 +22,14 @@ a típusokról, az operátorokról, valamint a szöveges típusról.
 
 ## Típusok és operátorok
 
-* [ ] [Literálok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709837-literalok)
-* [ ] Literálok gyakorlati feladat
-* [ ] [Egyszerű típusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709846-egyszeru-tipusok)
-* [ ] Egyszerű típusok gyakorlati feladat
-* [ ] [Karakter videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/27993708-karakter)
-* [ ] Karakter gyakorlati feladat
-* [ ] [Felsorolásos típus videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709804-felsorolasos-tipus)
-* [ ] Felsorolásos típus gyakorlati feladat
+* [x] [Literálok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709837-literalok)
+* [x] Literálok gyakorlati feladat
+* [x] [Egyszerű típusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709846-egyszeru-tipusok)
+* [x] Egyszerű típusok gyakorlati feladat
+* [x] [Karakter videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/27993708-karakter)
+* [x] Karakter gyakorlati feladat
+* [x] [Felsorolásos típus videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709804-felsorolasos-tipus)
+* [x] Felsorolásos típus gyakorlati feladat
 * [ ] [Operátorok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709858-operatorok)
 * [ ] Operátorok gyakorlati feladat 
 * [ ] Oszthatóság vizsgálata gyakorlati feladat [(Szöveges anyag itt)](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/texts/28278683-oszthatosag-vizsgalata)
