@@ -19,5 +19,10 @@ public class FirstEnumMain {
         System.out.println(Ocean.valueOf("SOUTHERN"));
         System.out.println(Ocean.valueOf("ARCTIC"));
         System.out.println(Arrays.toString(Ocean.values()));
+        System.out.println();
+        System.out.println(Football.GOALKEEPER.name());
+        System.out.println(Football.MIDFIELDER.name());
+        System.out.println(Football.FORWARD.name());
+        System.out.println(Arrays.toString(Football.values()));
     }
 }
