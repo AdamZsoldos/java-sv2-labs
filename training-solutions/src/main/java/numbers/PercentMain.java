@@ -27,6 +27,4 @@ public class PercentMain {
         System.out.println(df.format(Percent.getBase(i1, i2)) + " * " + i2 + "% = " + i1);
         System.out.println(i1 + " * " + df.format(Percent.getPercentage(i1, i2)) + "% = " + i2);
     }
-
-
 }
