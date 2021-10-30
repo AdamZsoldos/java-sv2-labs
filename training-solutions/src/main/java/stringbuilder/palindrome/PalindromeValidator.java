@@ -13,7 +13,7 @@ public class PalindromeValidator {
         return reversePhrase.toString().equalsIgnoreCase(phrase);
     }
 
-    private static String getAlphabeticString(String phrase) {
+    public static String getAlphabeticString(String phrase) {
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < phrase.length(); i++) {
             if (Character.isAlphabetic(phrase.charAt(i))) result.append(phrase.charAt(i));
