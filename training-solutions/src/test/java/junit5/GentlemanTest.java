@@ -10,5 +10,8 @@ class GentlemanTest {
     void sayHelloTest() {
         Gentleman gentleman = new Gentleman();
         assertEquals("Hello John Doe!", gentleman.sayHello("John Doe"));
+        assertEquals("Hello Anonymous!", gentleman.sayHello(""));
+        assertEquals("Hello Anonymous!", gentleman.sayHello(" "));
+        assertEquals("Hello Anonymous!", gentleman.sayHello(null));
     }
 }
