@@ -9,6 +9,10 @@ public class GentlemanTest {
 
     @Test
     public void helloTest() {
-        assertThat(new Gentleman().sayHello("John Doe"), equalTo("Hello John Doe!"));
+        Gentleman gentleman = new Gentleman();
+        assertThat(gentleman.sayHello("John Doe"), equalTo("Hello John Doe!"));
+        assertThat(gentleman.sayHello(""), equalTo("Hello Anonymous!"));
+        assertThat(gentleman.sayHello(" \n"), equalTo("Hello Anonymous!"));
+        assertThat(gentleman.sayHello(null), equalTo("Hello Anonymous!"));
     }
 }
