@@ -1,16 +1,6 @@
 package junit5fixture;
 
-public class Ship {
-
-    private String name;
-    private int yearOfConstruction;
-    private double length;
-
-    public Ship(String name, int yearOfConstruction, double length) {
-        this.name = name;
-        this.yearOfConstruction = yearOfConstruction;
-        this.length = length;
-    }
+public record Ship(String name, int yearOfConstruction, double length) {
 
     public String getName() {
         return name;
