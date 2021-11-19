@@ -8,10 +8,10 @@ Ezen a héten a kivétel- és fájlkezelést fogjátok alapszinten megismerni.
 * [x] Első kivétel gyakorlati feladat
 * [x] [További kivételek videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177698-tovabbi-kivetelek)
 * [x] További kivételek gyakorlati feladat
-* [ ] [Kivétel a hívási láncban videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177718-kivetel-a-hivasi-lancban)
-* [ ] Kivétel a hívási láncban gyakorlati feladat
-* [ ] [Kivétel kezelése videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177738-kivetel-kezelese)
-* [ ] Kivétel kezelése gyakorlati feladat
+* [x] [Kivétel a hívási láncban videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177718-kivetel-a-hivasi-lancban)
+* [x] Kivétel a hívási láncban gyakorlati feladat
+* [x] [Kivétel kezelése videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177738-kivetel-kezelese)
+* [x] Kivétel kezelése gyakorlati feladat
 * [ ] [Kivétel kezelése a hívási láncban videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177746-kivetel-kezelese-a-hivasi-lancban)
 * [ ] Kivétel kezelése a hívási láncban gyakorlati feladat
 * [ ] [Kivétel eldobása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177790-kivetel-eldobasa)
@@ -41,5 +41,5 @@ Ezen a héten a kivétel- és fájlkezelést fogjátok alapszinten megismerni.
 * [x] 2021-11-16 konzultáció gyakorlati feladat
 * [x] 2021-11-18 konzultáció részvétel/videó
 * [x] 2021-11-18 konzultáció gyakorlati feladat
-* [ ] 2021-11-19 konzultáció részvétel/videó
-* [ ] 2021-11-19 konzultáció gyakorlati feladat
+* [x] 2021-11-19 konzultáció részvétel/videó
+* [x] 2021-11-19 konzultáció gyakorlati feladat
