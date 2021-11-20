@@ -8,7 +8,8 @@ class AdultTest {
 
     @Test
     void testCreateTooYoung() {
-        assertThrows(IllegalStateException.class, () -> new Adult("John Doe", 17));
+        IllegalStateException e = assertThrows(IllegalStateException.class, () -> new Adult("John Doe", 17));
+        assertEquals("Age must be 18+!", e.getMessage());
     }
 
     @Test
