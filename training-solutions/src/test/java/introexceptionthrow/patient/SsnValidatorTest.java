@@ -6,8 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SsnValidatorTest {
 
-    String validSsn = "333333330";
-
     @Test
     void testValidate() {
         assertTrue(SsnValidator.isValid("333333330"));
