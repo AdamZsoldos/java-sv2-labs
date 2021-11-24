@@ -4,6 +4,10 @@ import java.util.List;
 
 public class Sales {
 
+    private Sales() {
+        throw new IllegalStateException("Utility class");
+    }
+
     public static Salesperson selectSalesPersonWithMaxSalesAmount(List<Salesperson> salespeople) {
         Salesperson selected = null;
         for (Salesperson salesperson : salespeople) {
