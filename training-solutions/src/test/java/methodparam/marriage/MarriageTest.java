@@ -22,13 +22,20 @@ class MarriageTest {
 
     @Test
     void testGetMarried() {
-        Marriage.getMarried(woman, MarriageNameConvention.BRIDAL_NAME, man, MarriageNameConvention.NO_CHANGE);
+        Marriage.getMarried(woman, MarriageNameConvention.NO_CHANGE, man, MarriageNameConvention.NO_CHANGE);
         assertEquals(2, woman.getRegisterDates().size());
         assertEquals(2, man.getRegisterDates().size());
         assertEquals("házasságkötés ideje", woman.getRegisterDates().get(1).getDescription());
         assertEquals("házasságkötés ideje", man.getRegisterDates().get(1).getDescription());
         assertEquals(LocalDate.now(), woman.getRegisterDates().get(1).getDate());
         assertEquals(LocalDate.now(), man.getRegisterDates().get(1).getDate());
+        assertEquals("Szabó Janka", woman.getName());
+        assertEquals("Kovács János", man.getName());
+    }
+
+    @Test
+    void testGetMarriedBridalName() {
+        Marriage.getMarried(woman, MarriageNameConvention.BRIDAL_NAME, man, null);
         assertEquals("Kovács Jánosné", woman.getName());
         assertEquals("Kovács János", man.getName());
     }
