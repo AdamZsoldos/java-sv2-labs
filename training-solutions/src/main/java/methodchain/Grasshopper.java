@@ -1,7 +1,5 @@
 package methodchain;
 
-import java.util.Random;
-
 public class Grasshopper {
 
     private int position = 0;
