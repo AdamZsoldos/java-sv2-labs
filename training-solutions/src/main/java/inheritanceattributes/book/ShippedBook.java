@@ -15,6 +15,6 @@ public class ShippedBook extends Book {
 
     @Override
     public String toString() {
-        return getTitle() + ": " + getCost(1) + " Ft, postaköltség: " + shippingCost + " Ft";
+        return getTitle() + ": " + price + " Ft, postaköltség: " + shippingCost + " Ft";
     }
 }

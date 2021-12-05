@@ -3,7 +3,7 @@ package inheritanceattributes.book;
 public class Book {
 
     private final String title;
-    private final int price;
+    protected final int price;
 
     public Book(String title, int price) {
         this.title = title;
