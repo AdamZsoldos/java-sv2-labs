@@ -69,7 +69,13 @@ class SimpleTimeTest {
     }
 
     @Test
-    void testTestToString() {
+    void testCreateWithNull() {
+        IllegalArgumentException e = assertThrows(IllegalArgumentException.class, () -> new SimpleTime(null));
+        assertEquals("Time is null", e.getMessage());
+    }
+
+    @Test
+    void testToString() {
         SimpleTime time = new SimpleTime(9, 5);
         assertEquals("09:05", time.toString());
     }

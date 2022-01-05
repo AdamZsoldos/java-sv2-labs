@@ -48,6 +48,9 @@ public final class SimpleTime {
     }
 
     private void validateTimeString(String s) {
+        if (s == null) {
+            throw new IllegalArgumentException("Time is null");
+        }
         if (s.length() != 5) {
             throw new InvalidTimeException("Time is not hh:mm");
         }
