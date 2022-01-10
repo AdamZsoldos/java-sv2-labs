@@ -8,10 +8,10 @@ Ezen a héten a kivételkezelésről szerzett ismereteiteket fogjátok bővíten
 * [x] Kivételkezelés gyakorlati feladat
 * [x] [Saját kivétel videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29772385-sajat-kivetel)
 * [x] Saját kivétel gyakorlati feladat
-* [ ] [Multi catch videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29772388-multi-catch)
-* [ ] Multi catch gyakorlati feladat
-* [ ] [Try-With-Resources szerkezet videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29772391-try-with-resources-szerkezet)
-* [ ] Try-With-Resources szerkezet gyakorlati feladat
+* [x] [Multi catch videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29772388-multi-catch)
+* [x] Multi catch gyakorlati feladat
+* [x] [Try-With-Resources szerkezet videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29772391-try-with-resources-szerkezet)
+* [x] Try-With-Resources szerkezet gyakorlati feladat
 
 ## Konzultációk
 
@@ -21,5 +21,5 @@ Ezen a héten a kivételkezelésről szerzett ismereteiteket fogjátok bővíten
 * [x] 2022-01-04 konzultáció gyakorlati feladat
 * [x] 2022-01-06 konzultáció részvétel/videó
 * [x] 2022-01-06 konzultáció gyakorlati feladat
-* [ ] 2022-01-07 konzultáció részvétel/videó
-* [ ] 2022-01-07 konzultáció gyakorlati feladat
+* [x] 2022-01-07 konzultáció részvétel/videó
+* [x] 2022-01-07 konzultáció gyakorlati feladat
