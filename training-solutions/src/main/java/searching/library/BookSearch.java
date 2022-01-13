@@ -1,6 +1,5 @@
 package searching.library;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class BookSearch {
