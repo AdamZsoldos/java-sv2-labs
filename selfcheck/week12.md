@@ -39,8 +39,8 @@ Ezen a héten a kollekciókkal fogtok részletesebben megismerkedni.
 * [x] Rendezés gyakorlati feladat
 * [x] [Collections osztály (keresésen, rendezésen felüli metódusok) videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/10769625-collections-osztaly-keresesen-rendezesen-feluli-metodusok)
 * [x] Collections osztály (keresésen, rendezésen felüli metódusok) gyakorlati feladat
-* [ ] [A clone() metódus, deep clone videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/10769626-a-clone-metodus-deep-clone)
-* [ ] A clone() metódus, deep clone gyakorlati feladat
+* [x] [A clone() metódus, deep clone videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/10769626-a-clone-metodus-deep-clone)
+* [x] A clone() metódus, deep clone gyakorlati feladat
 
 ## Konzultációk
 
