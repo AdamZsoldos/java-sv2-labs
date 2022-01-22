@@ -4,7 +4,6 @@ import java.text.Collator;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-import java.util.stream.Collectors;
 
 public class Read {
 
@@ -18,7 +17,7 @@ public class Read {
         return books.stream()
                 .filter(book -> book.getNumberOfPages() <= maxNumberOfPages)
                 .map(Book::getTitle)
-                .collect(Collectors.toList());
+                .toList();
     }
 
     public List<String> listBookTitlesWithAuthor(String author) {
@@ -26,13 +25,13 @@ public class Read {
                 .filter(book -> book.getAuthor().equals(author))
                 .map(Book::getTitle)
                 .sorted(Collator.getInstance(Locale.US))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     public List<String> listAuthors() {
         return books.stream()
                 .map(Book::getAuthor)
                 .distinct()
-                .collect(Collectors.toList());
+                .toList();
     }
 }
