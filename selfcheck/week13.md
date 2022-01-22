@@ -4,9 +4,9 @@ Ezen a héten a lambda kifejezések és a streamek használatával fogtok részl
 
 ## Lambda kifejezések és streamek - kötelező
 
-* [ ] [Bevezetés a lambda kifejezések használatába videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31314536-bevezetes-a-lambda-kifejezesek-hasznalataba)
-* [ ] [Bevezetés a lambda kifejezések használatába - gyakorlat videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31315397-bevezetes-a-lambda-kifejezesek-hasznalataba-gyakorlat)
-* [ ] Bevezetés a lambda kifejezések használatába gyakorlati feladat
+* [x] [Bevezetés a lambda kifejezések használatába videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31314536-bevezetes-a-lambda-kifejezesek-hasznalataba)
+* [x] [Bevezetés a lambda kifejezések használatába - gyakorlat videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31315397-bevezetes-a-lambda-kifejezesek-hasznalataba-gyakorlat)
+* [x] Bevezetés a lambda kifejezések használatába gyakorlati feladat
 * [ ] [Bevezetés az Optional osztály használatába videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31319354-bevezetes-az-optional-osztaly-hasznalataba)
 * [ ] Bevezetés az Optional osztály használatába gyakorlati feladat
 * [ ] [Bevezetés a streamek használatába videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/31315582-bevezetes-a-streamek-hasznalataba)
