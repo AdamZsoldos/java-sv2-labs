@@ -47,3 +47,7 @@ mindenképpen végezze el ezeket a leckéket is.
 * [x] 2022-01-20 konzultáció gyakorlati feladat
 * [x] 2022-01-21 konzultáció részvétel/videó
 * [x] 2022-01-21 konzultáció gyakorlati feladat
+
+Haladó:
+Microservice alkalmazás ...
+Adatbázis programozás Java nyelven
