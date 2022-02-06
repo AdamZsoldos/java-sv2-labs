@@ -25,6 +25,13 @@ class ExamTest {
     }
 
     @Test
+    void testGetNamesOfAdmitteesWithStream() {
+        assertEquals(List.of("Jane", "John", "Jeff", "Jill", "Jack", "Jess"), exam.getNamesOfAdmitteesWithStream(6));
+        assertEquals(List.of("Jane", "John", "Jeff", "Jill"), exam.getNamesOfAdmitteesWithStream(4));
+        assertEquals(List.of("Jane"), exam.getNamesOfAdmitteesWithStream(1));
+    }
+
+    @Test
     void testGetNamesOfAdmitteesNotEnoughApplicants() {
         Exception e = assertThrows(IllegalArgumentException.class, () -> exam.getNamesOfAdmittees(7));
         assertEquals("Not enough applicants", e.getMessage());

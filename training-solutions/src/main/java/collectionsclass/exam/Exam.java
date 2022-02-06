@@ -2,6 +2,7 @@ package collectionsclass.exam;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Exam {
@@ -28,5 +29,16 @@ public class Exam {
             names.add(sortedResults.get(i).getApplicantName());
         }
         return names;
+    }
+
+    public List<String> getNamesOfAdmitteesWithStream(int numberOfAdmittees) {
+        if (results.size() < numberOfAdmittees) {
+            throw new IllegalArgumentException("Not enough applicants");
+        }
+        return results.stream()
+                .sorted(Comparator.reverseOrder())
+                .limit(numberOfAdmittees)
+                .map(ExamResult::getApplicantName)
+                .toList();
     }
 }
