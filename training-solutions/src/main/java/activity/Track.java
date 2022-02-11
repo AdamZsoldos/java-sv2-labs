@@ -97,7 +97,7 @@ public class Track {
             DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
             parseDocument(documentBuilder.parse(inputStream));
         } catch (IOException | ParserConfigurationException | SAXException e) {
-            throw new IllegalStateException("Error while reading file", e);
+            throw new IllegalStateException("Parsing error", e);
         }
     }
 
