@@ -5,6 +5,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
@@ -93,30 +94,25 @@ public class Track {
 
     public void loadFromGpx(InputStream inputStream) {
         try {
-            Document doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(inputStream);
-            parseDocument(doc);
+            DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            parseDocument(documentBuilder.parse(inputStream));
         } catch (IOException | ParserConfigurationException | SAXException e) {
             throw new IllegalStateException("Error while reading file", e);
         }
     }
 
-    private void parseDocument(Document doc) {
-        NodeList nodes = doc.getElementsByTagName("trkpt");
-        for (int i = 0; i < nodes.getLength(); i++) {
-            trackPoints.add(parseNode(nodes.item(i)));
+    private void parseDocument(Document document) {
+        NodeList trackPointNodes = document.getElementsByTagName("trkpt");
+        NodeList elevationNodes = document.getElementsByTagName("ele");
+        for (int i = 0; i < trackPointNodes.getLength(); i++) {
+            trackPoints.add(parseNode(trackPointNodes.item(i), elevationNodes.item(i)));
         }
     }
 
-    private TrackPoint parseNode(Node node) {
-        double latitude = Double.parseDouble(node.getAttributes().getNamedItem("lat").getTextContent());
-        double longitude = Double.parseDouble(node.getAttributes().getNamedItem("lon").getTextContent());
-        double elevation = 0;
-        for (int i = 0; i < node.getChildNodes().getLength(); i++) {
-            if ("ele".equals(node.getChildNodes().item(i).getNodeName())) {
-                elevation = Double.parseDouble(node.getChildNodes().item(i).getTextContent());
-                break;
-            }
-        }
+    private TrackPoint parseNode(Node trackPointNode, Node elevationNode) {
+        double latitude = Double.parseDouble(trackPointNode.getAttributes().getNamedItem("lat").getTextContent());
+        double longitude = Double.parseDouble(trackPointNode.getAttributes().getNamedItem("lon").getTextContent());
+        double elevation = Double.parseDouble(elevationNode.getTextContent());
         return new TrackPoint(new Coordinate(latitude, longitude), elevation);
     }
 }
