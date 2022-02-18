@@ -14,7 +14,7 @@ public class SqlUtil {
     public static PreparedStatement createParameterizedStatement(Connection connection, String sql, Object... params) throws SQLException {
         @SuppressWarnings("java:S2095")
         PreparedStatement stmt = connection.prepareStatement(sql);
-        for (int i = 1; i <= params.length; i++) {
+        for (int i = 1; i < params.length + 1; i++) {
             Object param = params[i - 1];
             if (param instanceof String s) {
                 stmt.setString(i, s);
