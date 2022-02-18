@@ -30,6 +30,8 @@ public class SqlUtil {
                 stmt.setTimestamp(i, Timestamp.valueOf(dateTime));
             } else if (param instanceof LocalTime time) {
                 stmt.setTime(i, Time.valueOf(time));
+            } else {
+                throw new IllegalArgumentException(String.format("Invalid param type at index %d: %s", i, param.getClass().getName()));
             }
         }
         return stmt;
