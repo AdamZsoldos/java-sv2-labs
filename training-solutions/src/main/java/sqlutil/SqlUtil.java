@@ -11,8 +11,8 @@ public class SqlUtil {
     private SqlUtil() {
     }
 
-    @SuppressWarnings("java:S2095")
     public static PreparedStatement createParameterizedStatement(Connection connection, String sql, Object... params) throws SQLException {
+        @SuppressWarnings("java:S2095")
         PreparedStatement stmt = connection.prepareStatement(sql);
         for (int i = 1; i <= params.length; i++) {
             Object param = params[i - 1];
@@ -37,8 +37,8 @@ public class SqlUtil {
         return stmt;
     }
 
-    @SuppressWarnings("java:S2095")
     public static Connection createTransactionalConnection(DataSource dataSource) throws SQLException {
+        @SuppressWarnings("java:S2095")
         Connection connection = dataSource.getConnection();
         connection.setAutoCommit(false);
         return connection;
