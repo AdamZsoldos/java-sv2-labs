@@ -51,3 +51,7 @@ mindenképpen végezze el ezeket a leckéket is.
 Haladó:
 Microservice alkalmazás ...
 Adatbázis programozás Java nyelven
+
+Könyvek:
+Clean Code
+Effective Java
