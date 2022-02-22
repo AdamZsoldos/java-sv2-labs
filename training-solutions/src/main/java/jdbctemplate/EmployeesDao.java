@@ -20,8 +20,8 @@ public class EmployeesDao {
     public long createEmployee(String name) {
         KeyHolder keyHolder = new GeneratedKeyHolder();
         jdbcTemplate.update(con -> {
-            PreparedStatement ps = con.prepareStatement(
-                    "insert into employees(emp_name) values (?)", Statement.RETURN_GENERATED_KEYS);
+            PreparedStatement ps = con.prepareStatement("insert into employees(emp_name) values (?)",
+                    Statement.RETURN_GENERATED_KEYS);
             ps.setString(1, name);
             return ps;
         }, keyHolder);
