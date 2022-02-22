@@ -25,9 +25,7 @@ public class EmployeesDao {
             ps.setString(1, name);
             return ps;
         }, keyHolder);
-        Number key = keyHolder.getKey();
-        if (key != null) return key.longValue();
-        else throw new IllegalArgumentException("No result");
+        return getKey(keyHolder);
     }
 
     public List<String> listEmployeeNames() {
@@ -38,5 +36,11 @@ public class EmployeesDao {
     public String findEmployeeNameById(long id) {
         return jdbcTemplate.queryForObject("select emp_name from employees where id = ?",
                 (rs, row) -> rs.getString("emp_name"), id);
+    }
+
+    private long getKey(KeyHolder keyHolder) {
+        Number key = keyHolder.getKey();
+        if (key != null) return key.longValue();
+        else throw new IllegalStateException("No key has been generated");
     }
 }
