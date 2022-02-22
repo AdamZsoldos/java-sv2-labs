@@ -55,3 +55,5 @@ Adatbázis programozás Java nyelven
 Könyvek:
 Clean Code
 Effective Java
+
+HackerRank
